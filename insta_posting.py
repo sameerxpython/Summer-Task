@@ -1,4 +1,3 @@
-#pip install instagrapi
 from instagrapi import Client
 
 cl = Client()

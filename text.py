@@ -1,10 +1,9 @@
 from twilio.rest import Client
 
-# Twilio credentials (Get these from https://www.twilio.com/console)
 account_sid = 'your_account_sid'
 auth_token = 'your_auth_token'
-twilio_number = '+1234567890'  # Your Twilio phone number
-receiver_number = '+91xxxxxxxxxx'  # Replace with the recipient's number
+twilio_number = '+1234567890'  
+receiver_number = '+91xxxxxxxxxx' 
 
 client = Client(account_sid, auth_token)
 
